@@ -1,0 +1,276 @@
+/*
+	table{
+
+    background-color: white;
+    border: 2px solid blue;
+}
+tbody{
+  border: 2px solid;
+}
+td, th {
+  border: 1px solid blue;
+  text-align: center;
+padding: 0.5em 1em;
+}*/
+
+main {
+	background: white;
+	border-color: black;
+	height: 700px;
+	overflow: hidden;
+
+}
+
+table,
+th,
+td {
+
+	border-collapse: collapse;
+	padding: 0.9em 0.9em;
+  width: 0.9em;
+}
+
+table {
+	margin-left: 1em;
+  width: 200px;
+}
+
+th,
+caption {
+	background-color: #666;
+	color: #fff;
+	border: 1px solid #666;
+}
+
+td {
+	background-image: linear-gradient(#f9f9f9, #e3e3e3);
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+tfoot {
+	border-bottom: 1px solid #666;
+}
+
+caption {
+	font-size: 1.5em;
+	border-radius: 0.5em 0.5em 0 0;
+	padding: 0.5em 0 0 0
+}
+/* 3. und 4. Spalte rechtsbündig */
+
+td:nth-of-type(3),
+td:nth-of-type(4) {
+	text-align: right;
+}
+
+body {
+background-image:url(Hintergrund.jpg);
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #000;
+text-align:center;
+font-size:18px;
+font-weight:bold;
+color:black;
+font-family:courier;
+}
+
+#menuepunkte{
+width:980px;
+height:18px;
+color:black;
+text-align:center;
+padding-top:5px;
+}
+
+#menuepunkte a{
+text-decoration:none;
+color:black;
+font-family:Georgia;
+font-size:18px;
+padding-left:5px;
+padding-right:5px;
+border-left:1px solid darkred;
+}
+
+#menuepunkte a:hover{
+border:1px solid darkred;
+}
+
+#ddmenuestadt{
+position:absolute;
+top:172px;
+left:385px;
+display:none;
+}
+
+#ddmenue1{
+background:darkred;
+border:1px solid black;
+text-align:left;
+margin-top:5px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+#ddmenue1 a{
+text-decoration:none;
+color:black;
+font-family:Georgia;
+font-size:14px;
+padding-left:5px;
+padding-right:5px;
+}
+
+#ddmenue1 a:hover {
+color:red;
+}
+
+#ddmenuestrand{
+position:absolute;
+top:172px;
+left:471px;
+display:none;
+}
+
+#ddmenue2{
+background:darkred;
+border:1px solid black;
+text-align:left;
+margin-top:5px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+#ddmenue2 a{
+text-decoration:none;
+color:black;
+font-family:Georgia;
+font-size:14px;
+padding-left:5px;
+padding-right:5px;
+}
+
+#ddmenue2 a:hover {
+color:red;
+}
+
+#ddmenuegebirge{
+position:absolute;
+top:172px;
+left:577px;
+display:none;
+}
+
+#ddmenue3{
+background:darkred;
+border:1px solid black;
+text-align:left;
+margin-top:5px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+#ddmenue3 a{
+text-decoration:none;
+color:black;
+font-family:Georgia;
+font-size:14px;
+padding-left:5px;
+padding-right:5px;
+}
+
+#ddmenue3 a:hover {
+color:red;
+}
+
+#website {
+width:980px;
+margin:0 auto;
+margin-top:10px;
+margin-bottom:10px;
+position:relative;
+}
+
+#header {
+width:980px;
+height:150px;
+background:darkred;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+position:relative;
+margin-top:5px;
+}
+
+#header h1 {
+padding-top:15px;
+font-size:60px;
+font-weight:bold;
+color:white;
+font-family:courier;
+}
+
+#main {
+width:980px;
+}
+
+#main h1{
+padding-top:30px;
+font-size:40px;
+font-weight:bold;
+color:black;
+font-family:courier;
+}
+
+#infobox{
+width:980px;
+height:300px;
+background-color:transparent;
+margin-top:10px;
+margin-bottom: 10px;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border:1px solid black;
+}
+
+#angebote{
+width:980px;
+height:180px;
+background-color:white;
+margin-top:10px;
+margin-bottom: 10px;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+
+#packete{
+width:980px;
+height:180px;
+background-color:white;
+margin-top:10px;
+margin-bottom: 10px;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+
+#footer {
+width:980px;
+height:100px;
+background:white;
+position:relative;
+margin-top:10px;
+margin-bottom:10px;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
